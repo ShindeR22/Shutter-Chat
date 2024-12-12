@@ -1,5 +1,3 @@
-"use client";
-
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
 
@@ -42,7 +40,7 @@ export default function ShutterChat() {
 
   return (
     <div className="flex justify-center items-center min-h-screen w-screen bg-blue-300 p-4">
-      <div className="flex flex-col w-full  xl:w-2/4 bg-blue-100 shadow-lg rounded-lg overflow-hidden">
+      <div className="flex flex-col w-full xl:w-2/4 bg-blue-100 shadow-lg rounded-lg overflow-hidden">
         <header className="bg-blue-600 text-white p-4">
           <h1 className="text-lg font-bold">Shutter Chat</h1>
         </header>
@@ -68,7 +66,7 @@ export default function ShutterChat() {
             ))}
             <div ref={messagesEndRef} />
           </main>
-          <div className="   p-4 bg-blue-100  border-t-4 border-gray-900">
+          <div className="p-4 bg-blue-100 border-t-4 border-gray-900">
             <div className="max-w-3xl mx-auto flex items-center">
               <input
                 type="text"
